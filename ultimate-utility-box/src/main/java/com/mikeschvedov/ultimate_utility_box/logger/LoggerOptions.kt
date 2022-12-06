@@ -1,6 +1,6 @@
 package com.mikeschvedov.ultimate_utility_box.logger
 
-internal data class LoggerOptions(
+data class LoggerOptions(
     val fileName: String = "",
     val writeToFile: Boolean = false,
     val outputFilePath: String = "",

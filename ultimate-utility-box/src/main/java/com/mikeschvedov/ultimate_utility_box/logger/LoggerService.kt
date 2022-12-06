@@ -1,6 +1,6 @@
 package com.mikeschvedov.ultimate_utility_box.logger
 
-internal object LoggerService {
+object LoggerService {
 
     var logger: Logger? = null
     private const val LogFileName = "Crowdwise_SDK_logs";

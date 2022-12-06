@@ -8,7 +8,7 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 
-internal class Logger(private val options: LoggerOptions) {
+class Logger(private val options: LoggerOptions) {
 
     private var timeFormat = "YYYY-MM-dd HH:mm:ss.SSS"
 
