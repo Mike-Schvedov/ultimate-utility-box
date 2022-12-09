@@ -50,6 +50,6 @@ afterEvaluate {
             groupId = 'com.mikeschvedov'
             artifactId = "ultimate-utility-box"
             version = '1.0.1'
-        }
+        } //
     }
 }
