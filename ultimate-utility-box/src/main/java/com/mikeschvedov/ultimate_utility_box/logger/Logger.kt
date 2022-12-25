@@ -127,11 +127,11 @@ class Logger(private val options: LoggerOptions) {
         return 0
     }
 
-    fun verbose(msg: String) {
+     fun verbose(msg: String) {
         log(LoggerOptions.LogLevel.VERBOSE, msg)
     }
 
-    fun debug(msg: String) {
+     fun debug(msg: String) {
         log(LoggerOptions.LogLevel.DEBUG, msg)
     }
 
